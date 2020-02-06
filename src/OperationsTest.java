@@ -15,6 +15,18 @@ public class OperationsTest {
 		assertEquals(o,o.add(3, -9));
 		assertEquals(o,o.add(-5, -9));
 	}
+
+	@Test
+	/*
+	 * TestCases for Subtraction
+	 */
+	public void testSub() {
+		
+		Operations o = new Operations();
+		assertEquals(o,o.sub(5, 3));
+		assertEquals(o,o.sub(3, -9));
+		assertEquals(o,o.sub(-5, -9));
+	}
 	
 	@Test
 	/*

@@ -9,6 +9,18 @@ public class Operations {
 	public int add(int a,int b) {
 		return a + b;
 	}
+
+	/*
+	 * @Perform subtraction of two integer numbers
+	 * @param a
+	 * @param b
+	 * returns difference of two numbers
+	 */
+	public int sub(int a,int b) {
+		return a - b;
+	}
+
+
 	/*
 	 * @Perform multiplication of two integer numbers
 	 * @param a
